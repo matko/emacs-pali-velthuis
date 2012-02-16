@@ -3,8 +3,8 @@ This code is in the public domain.
 
 To use, download and add this to your init.el file.
 
-(add-to-list 'load-path "/path/to/dir/") ; download directory
-(require 'pali-velthuis)
+    (add-to-list 'load-path "/path/to/dir/") ; download directory
+    (require 'pali-velthuis)
 
 The mapping is as follows:
 AA -> Ā
