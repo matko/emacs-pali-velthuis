@@ -1,0 +1,29 @@
+emacs-pali-velthuis is an emacs input method to write Pali (the liturgical language of theravāda buddhism) in the latin alphabet augmented with diacritical marks, using the Velthuis method. This method translates certain letter combinations to latin letters with diacritical marks. The mapping is described at the bottom of this README.
+This code is in the public domain.
+
+To use, download and add this to your init.el file.
+
+(add-to-list 'load-path "/path/to/dir/") ; directory that contains the downloaded file
+(require 'pali-velthuis)
+
+The mapping is as follows:
+AA -> Ā
+aa -> ā
+II -> Ī
+ii -> ī
+UU -> Ū
+uu -> ū
+"N -> Ṅ
+"n -> ṅ
+.M -> Ṃ
+.m -> ṃ
+~N -> Ñ
+~n -> ñ
+.T -> Ṭ
+.t -> ṭ
+.D -> Ḍ
+.d -> ḍ
+.N -> Ṇ
+.n -> ṇ
+.L -> Ḷ
+.l -> ḷ
